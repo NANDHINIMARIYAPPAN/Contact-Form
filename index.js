@@ -111,7 +111,7 @@ function validateAndSubmitForm() {
         div2.textContent = "Thanks for completing the form. We'll be in touch soon!";
         let img = document.createElement("img");
         img.classList = "img-fluid pt-1 ";
-        img.src = "/assets/images/icon-success-check.svg";
+        img.src = "assets/images/icon-success-check.svg";
         let p = document.createElement("p");
         p.textContent = "Message Sent!";
         div1.appendChild(p);
